@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "outDir": "./dist/es/src"
+    },
+    "extends": "./tsconfig.json",
+    "exclude": ["./App.tsx"],
+    "include": ["./src"]
+}
