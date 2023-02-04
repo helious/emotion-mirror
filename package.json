@@ -30,6 +30,8 @@
   "main": "dist/cjs/src/emotion-mirror.js",
   "module": "dist/es/src/emotion-mirror.js",
   "name": "@helious/emotion-mirror",
+  "homepage": "https://github.com/helious/emotion-mirror",
+  "repository": "helious/emotion-mirror",
   "scripts": {
     "build": "rm -rf dist && NODE_ENV=production rollup -c & tsc -p tsconfig.declaration.json",
     "start": "rm -rf build && rollup -cw & http-server public",
@@ -37,5 +39,5 @@
   },
   "type": "module",
   "types": "dist/es/src/emotion-mirror.d.ts",
-  "version": "0.0.2"
+  "version": "0.0.3"
 }
