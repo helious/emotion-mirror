@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.4
+
+- Fix typos in `README.md`
+
 ## 0.0.3
 
 - Add `CHANGELOG.md`, `CONTRIBUTING.md`, `README.md`
