@@ -3,7 +3,7 @@
 [![npm version](https://img.shields.io/npm/v/@helious/emotion-mirror)](https://www.npmjs.com/package/@helious/emotion-mirror)
 [![npm downloads](https://img.shields.io/npm/dm/@helious/emotion-mirror)](https://npmcharts.com/compare/@helious/emotion-mirror?minimal=true)
 
-Welcome to `@helious/emotion-mirror` - a way for us to utilize [`@emotion/react`](https://github.com/emotion-js/emotion/tree/main/packages/react)'s [`styled`](https://github.com/emotion-js/emotion/tree/main/packages/styled) that allows for self-reflection on the styles it creates. `@helious/emotion-mirror`'s' wrapped `styled` will allow you to get real-time feedback on invalid (or lint issues, all via [`stylelint`](https://github.com/stylelint/stylelint)) CSS styles at runtime via the browser console when rendering your Styled Components!
+Welcome to `@helious/emotion-mirror` - a way for us to utilize [`@emotion/react`](https://github.com/emotion-js/emotion/tree/main/packages/react)'s [`styled`](https://github.com/emotion-js/emotion/tree/main/packages/styled) that allows for self-reflection on the styles it creates. `@helious/emotion-mirror`'s wrapped `styled` will allow you to get real-time feedback on invalid (or lint issues, all via [`stylelint`](https://github.com/stylelint/stylelint)) CSS styles at runtime via the browser console when rendering your Styled Components!
 
 ## Install
 
@@ -13,7 +13,7 @@ npm i @helious/emotion-mirror
 
 ## Usage
 
-`@helious/emotion-mirror` is intended to provide a direct replacement for `@emotion`'s version.
+`@helious/emotion-mirror` is intended to provide a direct replacement for `@emotion`'s `styled`.
 
 More documentation is available at [https://emotion.sh/docs/styled](https://emotion.sh/docs/styled).
 
