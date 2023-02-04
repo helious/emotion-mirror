@@ -39,5 +39,5 @@
   },
   "type": "module",
   "types": "dist/es/src/emotion-mirror.d.ts",
-  "version": "0.0.4"
+  "version": "0.0.5"
 }

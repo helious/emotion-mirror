@@ -73,6 +73,10 @@ This is what you can expect when using `styled` and there are issues in your com
 
 ![Example Output](example-output.png)
 
+### Production Mode
+
+`@helious/emotion-mirror` is currently configured to only run Styled Components through `stylelint` when `process.env.NODE_ENV` is not set to `"production"`. When `process.env.NODE_ENV` is `"production"`, `@helious/emotion-mirror`'s `styled` will fall back to using `@emotion/react`'s `styled`.
+
 ## Contributors
 
 `@helious/emotion-mirror` is maintained by [@helious](https://github.com/helious) and volunteers. Without the code contributions from [all these fantastic people](https://github.com/helious/emotion-mirror/graphs/contributors), `@helious/emotion-mirror` would not exist. [Become a contributor](CONTRIBUTING.md).

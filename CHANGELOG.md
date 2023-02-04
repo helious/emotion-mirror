@@ -1,12 +1,16 @@
 # Changelog
 
+## 0.0.5
+
+- Add `process.env.NODE_ENV` being `"production"` notes to `README.md`.
+
 ## 0.0.4
 
-- Fix typos in `README.md`
+- Fix typos in `README.md`.
 
 ## 0.0.3
 
-- Add `CHANGELOG.md`, `CONTRIBUTING.md`, `README.md`
+- Add `CHANGELOG.md`, `CONTRIBUTING.md`, `README.md`.
 
 ## 0.0.2
 
