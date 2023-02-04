@@ -13,7 +13,7 @@ npm i @helious/emotion-mirror
 
 ## Usage
 
-`@helious/emotion-mirror` is intended to provide a direct replacement for `@emotion`'s `styled`.
+`@helious/emotion-mirror` is intended to provide a direct replacement for `@emotion/react`'s `styled`.
 
 More documentation is available at [https://emotion.sh/docs/styled](https://emotion.sh/docs/styled).
 

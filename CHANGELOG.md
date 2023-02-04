@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.0.6
+
+- Add consistency to notes in `README.md`.
+
 ## 0.0.5
 
 - Add `process.env.NODE_ENV` being `"production"` notes to `README.md`.
