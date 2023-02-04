@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.0
+
+- Official release. 🎉
+
 ## 0.0.6
 
 - Add consistency to notes in `README.md`.
