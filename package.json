@@ -37,7 +37,8 @@
     "start": "rm -rf build && rollup -cw & http-server public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "sideEffects": false,
   "type": "module",
   "types": "dist/es/src/emotion-mirror.d.ts",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }

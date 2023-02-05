@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Add "sideEffect" `false` to `package.json` so `stylelint` can properly be tree-shaken.
+
 ## 1.0.0
 
 - Official release. 🎉
