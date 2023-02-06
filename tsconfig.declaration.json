@@ -5,6 +5,6 @@
         "outDir": "./dist/es/src"
     },
     "extends": "./tsconfig.json",
-    "exclude": ["./App.tsx"],
+    "exclude": ["./App.tsx", "/**/*.test.*"],
     "include": ["./src"]
 }

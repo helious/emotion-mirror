@@ -63,7 +63,7 @@ Here is how you would disable any of the default `stylelint` rules:
 import { configureRules } from "@helious/emotion-mirror";
 
 configureRules({
-    "annotation-no-unknown": false,
+    "annotation-no-unknown": null,
 });
 ```
 

@@ -32,8 +32,9 @@ With the interactive testing prompt running, you can write code confident that t
 
 ### Run tests
 
-Next, you'll want to run the tests using `npm test`.
-However, tests have not been currently implemented _yet_.
+Next, you'll want to run the tests using `npm test` and make sure they all pass.
+Make sure to adjust or add tests based on changes in functionality.
+We currently use [jest](https://jestjs.io/) and [react-testing-library](https://testing-library.com/docs/react-testing-library/intro/) for unit tests.
 
 ### Format code
 
