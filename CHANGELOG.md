@@ -1,8 +1,12 @@
 # Changelog
 
+## 1.1.1
+
+- Publish correct build.
+
 ## 1.1.0
 
-- Add Styled Component's `displayName` to lint issue warnings
+- Add Styled Component's `displayName` to lint issue warnings.
 
 ## 1.0.1
 
