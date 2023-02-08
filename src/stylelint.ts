@@ -31,7 +31,7 @@ let configuredRules = {
 const checkStyles = (styles) => {
     const { styles: parsedStyles } = css(styles);
 
-    stylelint
+    return stylelint
         .lint({
             code: `
                 * {
@@ -53,9 +53,11 @@ const checkStyles = (styles) => {
                     });
                 });
             }
+
+            return Boolean(errored);
         })
-        .catch((err) => {
-            console.error(err);
+        .catch((error) => {
+            console.error(error);
         });
 };
 

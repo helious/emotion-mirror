@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0
+
+- Add Styled Component's `displayName` to lint issue warnings
+
 ## 1.0.1
 
 - Add "sideEffect" `false` to `package.json` so `stylelint` can properly be tree-shaken.
