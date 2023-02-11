@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.3
+
+- Fix `package.json` file targets.
+
 ## 1.1.2
 
 - Mark `tslib` as external in `dist` builds.

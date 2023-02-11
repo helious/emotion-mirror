@@ -2,7 +2,7 @@
     "compilerOptions": {
         "declaration": true,
         "emitDeclarationOnly": true,
-        "outDir": "./dist/es/src"
+        "outDir": "./dist/es"
     },
     "extends": "./tsconfig.json",
     "exclude": ["./App.tsx", "/**/*.test.*"],

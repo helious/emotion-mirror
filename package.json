@@ -32,8 +32,8 @@
     "dist"
   ],
   "license": "MIT",
-  "main": "dist/cjs/src/emotion-mirror.js",
-  "module": "dist/es/src/emotion-mirror.js",
+  "main": "dist/cjs/emotion-mirror.js",
+  "module": "dist/es/emotion-mirror.js",
   "name": "@helious/emotion-mirror",
   "homepage": "https://github.com/helious/emotion-mirror",
   "repository": "helious/emotion-mirror",
@@ -45,6 +45,6 @@
   },
   "sideEffects": false,
   "type": "module",
-  "types": "dist/es/src/emotion-mirror.d.ts",
-  "version": "1.1.2"
+  "types": "dist/es/emotion-mirror.d.ts",
+  "version": "1.1.3"
 }
