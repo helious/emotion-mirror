@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.4
+
+- Add explicit `.default` check on `styled` import.
+
 ## 1.1.3
 
 - Fix `package.json` file targets.

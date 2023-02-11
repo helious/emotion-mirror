@@ -1,5 +1,8 @@
-import styled, { CreateStyled, CreateStyledComponent } from "@emotion/styled";
+import _styled, { CreateStyled, CreateStyledComponent } from "@emotion/styled";
 import { configureRules, checkStyles } from "./stylelint";
+
+// @ts-ignore
+const styled: CreateStyled = _styled.default || _styled;
 
 const getStyledComponent = (styled: CreateStyledComponent<any>) => (styles) => {
     let resolveComponentNamePromise: (name: string) => void = () => {};
