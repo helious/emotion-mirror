@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.2
+
+- Mark `tslib` as external in `dist` builds.
+
 ## 1.1.1
 
 - Publish correct build.
