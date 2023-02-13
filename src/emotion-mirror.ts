@@ -1,7 +1,7 @@
 import _styled, { CreateStyled, CreateStyledComponent } from "@emotion/styled";
 import { configureRules, checkStyles } from "./stylelint";
 
-// @ts-ignore
+// @ts-expect-error Issue with the default export. See https://github.com/emotion-js/emotion/issues/2730
 const styled: CreateStyled = _styled.default || _styled;
 
 const getStyledComponent = (styled: CreateStyledComponent<any>) => (styles) => {
