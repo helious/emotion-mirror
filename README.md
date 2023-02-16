@@ -8,7 +8,7 @@ Welcome to `@helious/emotion-mirror` - a way for us to utilize [`@emotion/react`
 ## Install
 
 ```bash
-npm i @helious/emotion-mirror
+npm i -S @helious/emotion-mirror
 ```
 
 ## Usage
